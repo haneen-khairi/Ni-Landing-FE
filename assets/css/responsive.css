@@ -1,0 +1,246 @@
+@media(min-width:768px) {
+  header .intro-text {
+    padding-top: 175px;
+    padding-bottom: 100px;
+  }
+
+  header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 1000px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  .navlinks li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 65px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .navlinks li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  li a:hover,
+  a.active {
+    color: red;
+    background: none;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+@media(max-width:768px) {
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  .d-flex-center {
+    display: grid;
+    grid-template-columns: 15% 24% 24% 24%;
+    column-gap: 10px;
+    text-align: center;
+    align-items: start;
+    padding: 10px 0px;
+  }
+
+  .table-part p {
+    font-size: 8px;
+  }
+
+  strong {
+    font-size: 12px;
+  }
+
+  strong>span {
+    font-size: 9px;
+  }
+
+  .video-bg {
+    min-height: 500px;
+  }
+
+  header .intro-text .intro-heading {
+    font-size: 30px;
+  }
+
+  .about-program-text {
+    margin: 20px auto;
+  }
+
+  p {
+    line-height: 1.85;
+  }
+
+  nav {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px 10px;
+  }
+
+  .checkbtn {
+    margin-right: 15px;
+  }
+
+  .point-card {
+    min-height: 100%;
+  }
+
+  .table-part-icon i {
+    font-size: 1.5rem;
+    display: contents;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+
+  .footer-logo p {
+    padding-right: 30px;
+  }
+  .svg-video{
+    display: none;
+  }
+  .mobile-none{
+    display: none;
+  }
+  .mobile-none-offset-1{
+    margin: 0px!important;
+  } 
+  .banner-header .banner-text,.banner-header .banner-text-first { 
+    border-bottom: 1px solid #c2c2c2;
+    border-right: none!important;
+    margin:10px
+  }
+.banner-header .banner-text-last{
+  border-bottom: none;
+  border-right: none!important;
+}
+.modern-logo-main div img {
+  width: 50px;
+}
+.btn-xl { 
+  display: block;
+  font-size: 15px;
+  width: 200px;
+}
+.country-card-custom { 
+  width: 100%;
+}
+section {
+  padding: 20px 0;
+}
+.country-list-visa { 
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 2rem; 
+  padding: 0px;
+}
+.country-list-main {
+  padding: 20px;
+  border-radius: 0px;
+}
+.country-visa h4 {
+  font-size: 20px;
+}
+.country-visa h5 {
+  font-size: 14px;
+}
+.accordion button .accordion-title {
+  padding: 10px;
+  font-size: 12px;
+}
+h2 {
+  font-size: 2.5rem;
+} 
+.d-mobile{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.banner-header {
+  top: 0px;
+}
+header .intro-text .intro-heading {
+  font-size: 30px;
+  color: #000;
+}
+ 
+.img-bg {
+    width: 100%;
+    height: 500px!important;
+    height: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    object-position: right;
+}
+.btn-groun-display{
+  display: flex;
+}
+.btn-xl { 
+  width: 150px;
+}
+.contact-certificate{
+  text-align: center;
+  padding:20px;
+}
+.contact-certificate img{
+  width:100%;
+  max-width:200px;
+}
+ 
+.form-group { 
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.contact-input {
+  padding: 10px; 
+  margin: 20px 0px; 
+}
+.contact-wrapper .btn-xl { 
+  width: 200px;
+  margin: 10px auto;
+}
+}

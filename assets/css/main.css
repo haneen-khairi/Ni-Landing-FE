@@ -1,0 +1,484 @@
+/* Global Styles */
+* {
+    direction: rtl !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+h5 {
+    font-size: 1.65rem;
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    margin-bottom: 2.5rem;
+}
+
+strong {
+    color: #ee2226;
+    font-size: 18px;
+}
+
+strong>span {
+    color: #606060;
+    font-size: 11px;
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.75;
+}
+
+p>span {
+    color: #000;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+/* Button Styles */
+.btn-xl {
+    padding: 10px 40px;
+    margin: 20px;
+    border-color: transparent;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e32224;
+    transition: border-radius 0.2s ease-in-out;
+    background-color: #ffffff;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #e32224;
+    transition: border-radius 0.5s ease-in-out;
+    box-shadow: 1px 1px 10px grey;
+}
+.btn-xl2 {
+    padding: 10px 40px;
+    margin: 20px;
+    border-color: transparent;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: border-radius 0.2s ease-in-out;
+    background-color: #e32224;
+}
+
+.btn-xl2:hover,
+.btn-xl2:focus,
+.btn-xl2:active,
+.btn-xl2.active,
+.open .dropdown-toggle.btn-xl2 {
+    border-radius: 10px;
+    background-color: #e32224;
+    color: #fff;
+    transition: border-radius 0.5s ease-in-out;
+    box-shadow: 1px 1px 10px grey;
+}
+/* Header Styles */
+header {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+/* Section Styles */
+section {
+    padding: 75px 0;
+}
+
+.footer {
+    padding: 60px 0 20px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+    position: relative;
+    color: #fff;
+    background-color: #1a2d39;
+    background-image: url(../img/shape-4.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.footer-svg {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+/* Miscellaneous Styles */
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 10px 0px 40px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navbar-nav>li {
+    float: right;
+}
+
+nav {
+    height: 65px;
+    width: 100%;
+    background: #00000047;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 5px 0px;
+}
+
+.navlinks {
+    float: right;
+    margin-right: 20px;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navlinks li a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.navlinks a.active,
+.navlinks a:hover {
+    background: #e74c3c;
+}
+
+.checkbtn {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.m-x2 {
+    margin: 3.5rem auto;
+}
+
+/* Contact Styles */
+
+.form-instructions {
+    text-align: center;
+	padding: 0px 80px;
+}
+
+form {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 400px;
+    will-change: transform;
+}
+
+.fieldgroup {
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    top: .8rem;
+    right: 0;
+    display: block;
+    font-size: 1rem;
+    transition: .2s ease-out;
+    opacity: .5;
+    will-change: top, font-size;
+
+    &:hover {
+        cursor: text;
+    }
+}
+
+input {
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    padding: .6rem;
+    padding-left: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #444;
+    transition: .2s;
+    width: calc(100% - .6rem);
+    max-width: 350px;
+    border-radius: 0;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:valid {
+        border-color: #444;
+    }
+
+    &:focus + label,
+    &.hasInput + label {
+        top: -.8rem;
+        font-size: .7rem;
+    }
+}
+
+
+.btn-alt {
+    background-color: transparent;
+    color: #3d3d3d;
+    border: 2px solid #3d3d3d;
+
+    &:hover,
+    &.hover {
+        background-color: transparent;
+        color: darken(#3d3d3d, 40%);
+        border-color: darken(#3d3d3d, 40%);
+        text-shadow: none;
+    }
+
+    &:focus,
+    &.focus {
+        color: darken(#3d3d3d, 20%);
+    }
+
+    &:active,
+    &.active {
+        color: #fff;
+        background-color: #3d3d3d;
+        text-shadow: 0 -1px 0 rgba(255, 255, 255, .2);
+    }
+
+    &.hover,
+    &.active {
+        outline: none;
+    }
+}
+
+.buttons {
+    display: flex;
+
+    .btn {
+        margin-right: 15px;
+    }
+}
+
+form .btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 220px;
+    margin: 4rem auto 0 auto;
+}
+
+[data-step="4"] button.btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-progress {
+    position: relative;
+    display: block;
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+progress {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #3d3d3d;
+    width: 100%;
+    height: 5px;
+    background: none;
+    transition: 1s;
+    will-change: contents;
+
+    &::-webkit-progress-bar {
+        background-color: #ddd;
+    }
+
+    &::-webkit-progress-value {
+        background-color: #3d3d3d;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.form-progress-indicator {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+    transition-delay: .3s;
+    will-change: transform;
+
+    &.one {
+        left: 0;
+    }
+    &.two {
+        left: 33%;
+    }
+    &.three {
+        left: 66%;
+    }
+    &.four {
+        left: 100%;
+    }
+
+    &.active {
+        animation: bounce .5s forwards;
+        animation-delay: .5s;
+		border-color: #e32224;
+		background: #e32224;
+    }
+}
+
+.animation-container {
+    position: relative;
+    width: 100%;
+    transition: .3s;
+    background: #f4f4f4;
+    border-radius: 10px;
+    will-change: padding;
+    overflow: hidden;
+    height: 100%;
+}
+
+.form-step {
+    position: absolute;
+    transition: 1s ease-in-out;
+    transition-timing-function: ease-in-out;
+    will-change: transform, opacity; 
+    top: 50%;
+    transform: translate(0px , -50%);
+}
+
+.form-step.leaving {
+    animation: left-and-out .5s forwards;
+}
+
+.form-step.waiting {
+    transform: translateX(400px);
+}
+
+.form-step.coming {
+    animation: right-and-in .5s forwards;
+}
+
+@keyframes left-and-out {
+    100% {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+}
+
+@keyframes right-and-in {
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce {
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
