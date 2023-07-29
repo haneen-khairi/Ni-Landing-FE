@@ -433,7 +433,7 @@ progress {
     transition-timing-function: ease-in-out;
     will-change: transform, opacity; 
     top: 50%;
-    transform: translate(0px , -50%);
+    /*transform: translate(0px , -50%);*/
 }
 
 .form-step.leaving {
@@ -496,4 +496,10 @@ progress {
 .navlinks a.active, .navlinks a:hover {
     border-bottom: 3px solid #e32224;
     border-radius: 0px;
+}
+
+.toast{
+    position: relative;
+    bottom: 50%;
+    right: 22%;
 }

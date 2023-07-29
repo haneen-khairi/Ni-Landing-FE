@@ -476,6 +476,8 @@ header::before {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 ::placeholder {
