@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Subject = 'Saint lucia contact request landing page';
             $bodyParagraphs = '<html>
                     <head>
-                        <title>Birthday Reminders for August</title>
+                        <title>Saint lucia contact request landing page</title>
                     </head>
                     <body>
                         <table  border="1" cellspacing="3" width="60%">
