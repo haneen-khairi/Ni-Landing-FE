@@ -364,7 +364,7 @@
                                 </p>
                                 <h3>الجنسيه الحاليه</h3>
                                 <div class="fieldgroup">
-                                    <input type="text" name="answer" id="answer"/>
+                                    <input type="text" name="answer" required id="answer"/>
                                     <label for="answer">ادخل اجابتك</label>
                                 </div>
 
@@ -388,19 +388,19 @@
                                 <h4>الرجاء تعبئة بيانات الاتصال التاليه</h4>
                                 <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
                                 <div class="fieldgroup">
-                                    <input type="text" name="email" id="email"/>
+                                    <input type="text" name="email" required id="email"/>
                                     <label for="email">البريد الالكتروني</label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="name" id="name"/>
+                                    <input type="text" name="name" required id="name"/>
                                     <label for="name">الاسم بالكامل</label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="phone_number" id="phone_number"/>
+                                    <input type="text" name="phone_number" required id="phone_number"/>
                                     <label for="phone_number">رقم الهاتف </label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="alias" id="alias"/>
+                                    <input type="text" name="alias" required id="alias"/>
                                     <label for="alias"> المسمى الوظيفي</label>
                                 </div>
                                 <div class="buttons">
@@ -421,6 +421,7 @@
                                 </p>
                                 <div class="fieldgroup">
                                     <br/>
+                                    <input type="checkbox" name="" required id="">
                                     <label for="agreen"><strong>انا اوافق</strong>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci
                                         aspernatur, est porro maiores rem excepturi, amet laudantium quidem vero
