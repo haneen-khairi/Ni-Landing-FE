@@ -386,7 +386,7 @@
                                     بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
                                 </p>
                                 <h4>الرجاء تعبئة بيانات الاتصال التاليه</h4>
-                                <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+
                                 <div class="fieldgroup">
                                     <input type="text" name="email" required id="email"/>
                                     <label for="email">البريد الالكتروني</label>
