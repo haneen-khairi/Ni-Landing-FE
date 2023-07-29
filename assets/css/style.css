@@ -4,48 +4,48 @@
 }
 
 @font-face {
-    font-family: Cairo;
-    src: url(../fonts/Cairo/Cairo.ttf);
+    font-family: cairo;
+    src: url(../fonts/cairo/cairo.ttf);
 }
 
 @font-face {
-    font-family: Cairo-Black;
-    src: url(../fonts/Cairo/Cairo-Black.ttf);
+    font-family: cairo-Black;
+    src: url(../fonts/cairo/cairo-Black.ttf);
 }
 
 @font-face {
-    font-family: Cairo-Bold;
-    src: url(../fonts/Cairo/Cairo-Bold.ttf);
+    font-family: cairo-Bold;
+    src: url(../fonts/cairo/cairo-Bold.ttf);
 }
 
 @font-face {
-    font-family: Cairo-ExtraBold;
-    src: url(../fonts/Cairo/Cairo-ExtraBold.ttf);
+    font-family: cairo-extrabold;
+    src: url(../fonts/cairo/cairo-extrabold.ttf);
 }
 
 @font-face {
-    font-family: Cairo-ExtraLight;
-    src: url(../fonts/Cairo/Cairo-ExtraLight.ttf);
+    font-family: cairo-extralight;
+    src: url(../fonts/cairo/cairo-extralight.ttf);
 }
 
 @font-face {
-    font-family: Cairo-Light;
-    src: url(../fonts/Cairo/Cairo-Light.ttf);
+    font-family: cairo-light;
+    src: url(../fonts/cairo/cairo-light.ttf);
 }
 
 @font-face {
-    font-family: Cairo-Medium;
-    src: url(../fonts/Cairo/Cairo-Medium.ttf);
+    font-family: cairo-medium;
+    src: url(../fonts/cairo/cairo-medium.ttf);
 }
 
 @font-face {
-    font-family: Cairo-Regular;
-    src: url(../fonts/Cairo/Cairo-Regular.ttf);
+    font-family: cairo-regular;
+    src: url(../fonts/cairo/cairo-regular.ttf);
 }
 
 @font-face {
-    font-family: Cairo-SemiBold;
-    src: url(../fonts/Cairo/Cairo-SemiBold.ttf);
+    font-family: cairo-semibold;
+    src: url(../fonts/cairo/cairo-semibold.ttf);
 }
 
 ::-moz-selection {
@@ -59,7 +59,7 @@
 }
 
 * {
-    font-family: Cairo;
+    font-family: cairo;
     font-family: 800;
     letter-spacing: 0.5px !important;
 }
@@ -136,7 +136,7 @@ img {
     min-height: 25px;
     margin: 10px 0px;
     color: #ee2226;
-    font-family: Cairo-bold;
+    font-family: cairo-bold;
 }
 
 .point-card i {
