@@ -11,12 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone_number = $_POST['phone_number'];
     $alias = $_POST['alias'];
     $answer = $_POST['answer'];
+    $status = 'empty';
 
     if (!empty($name) || !empty($email) || !empty($phone_number) || !empty($alias) || !empty($answer)) {
         // Initialize PHPMailer
         $mail = new PHPMailer(true);
-        $status = 'empty';
-
         try {
             // SMTP Configuration
 
