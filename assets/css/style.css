@@ -3,50 +3,7 @@
     --fullGrid: 1 / 1 / -1 / -1;
 }
 
-@font-face {
-    font-family: cairo;
-    src: url(../fonts/cairo/cairo.ttf);
-}
 
-@font-face {
-    font-family: cairo-Black;
-    src: url(../fonts/cairo/cairo-Black.ttf);
-}
-
-@font-face {
-    font-family: cairo-Bold;
-    src: url(../fonts/cairo/cairo-Bold.ttf);
-}
-
-@font-face {
-    font-family: cairo-extrabold;
-    src: url(../fonts/cairo/cairo-extrabold.ttf);
-}
-
-@font-face {
-    font-family: cairo-extralight;
-    src: url(../fonts/cairo/cairo-extralight.ttf);
-}
-
-@font-face {
-    font-family: cairo-light;
-    src: url(../fonts/cairo/cairo-light.ttf);
-}
-
-@font-face {
-    font-family: cairo-medium;
-    src: url(../fonts/cairo/cairo-medium.ttf);
-}
-
-@font-face {
-    font-family: cairo-regular;
-    src: url(../fonts/cairo/cairo-regular.ttf);
-}
-
-@font-face {
-    font-family: cairo-semibold;
-    src: url(../fonts/cairo/cairo-semibold.ttf);
-}
 
 ::-moz-selection {
     text-shadow: none;
