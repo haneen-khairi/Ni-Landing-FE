@@ -15,14 +15,14 @@
     <link rel="stylesheet" href="assets/css/style.css?2">
     <link rel="stylesheet" href="assets/css/responsive.css?21">
     <!-- seo -->
-    <meta name="description" content="لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا ومدى الإحترافية إتمام المعاملات عبر فريق
+    <meta name="description" content="لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا مدى الإحترافية في  إتمام المعاملات عبر فريق
     المستشارين والمحاميين ذوي الخبرة العالية في مجال الهجرة والجنسية الثانية">
     <meta name="keywords" content="immigration, Saint Lucia, visa, citizenship, residency">
     <meta name="author" content="North Immigration">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://saintlucia.northimmigration.com/">
     <meta property="og:title" content="Saint Lucia | North Immigration">
-    <meta property="og:description" content="لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا ومدى الإحترافية إتمام المعاملات عبر فريق
+    <meta property="og:description" content="لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا مدى الإحترافية في  إتمام المعاملات عبر فريق
     المستشارين والمحاميين ذوي الخبرة العالية في مجال الهجرة والجنسية الثانية">
     <meta property="og:image" content="https://saintlucia.northimmigration.com/assets/img/logo-new2.png">
     <meta property="og:image:width" content="400">
@@ -607,7 +607,7 @@
                         <div class="footer-logo">
                             <img src="assets/img/logo-white.png" class="logo" alt="">
                             <p>
-                                لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا ومدى الإحترافية إتمام المعاملات عبر فريق
+                                لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا مدى الإحترافية في  إتمام المعاملات عبر فريق
                                 المستشارين والمحاميين ذوي الخبرة العالية في مجال الهجرة والجنسية الثانية
                             </p>
                         </div>
