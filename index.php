@@ -25,55 +25,55 @@
     <meta property="og:description" content="لدينا نسبة نجاح عالية يرجع ذلك لإلتزامنا ومدى الإحترافية إتمام المعاملات عبر فريق
     المستشارين والمحاميين ذوي الخبرة العالية في مجال الهجرة والجنسية الثانية">
     <meta property="og:image" content="https://saintlucia.northimmigration.com/assets/img/logo-new2.png">
-    <meta property="og:image:width" content="400"> 
+    <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="400">
     <meta property="og:image:alt" content="Saint Lucia">
     <meta property="og:url" content="https://saintlucia.northimmigration.com/">
     <meta property="og:type" content="website">
 
-    
+
     <title>Saint Lucia | North Immigration</title>
     <style>
         @font-face {
             font-family: cairo;
             src: url(assets/fonts/cairo/cairo.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-Black;
             src: url(assets/fonts/cairo/cairo-Black.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-Bold;
             src: url(assets/fonts/cairo/cairo-Bold.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-extrabold;
             src: url(assets/fonts/cairo/cairo-extrabold.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-extralight;
             src: url(assets/fonts/cairo/cairo-extralight.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-light;
             src: url(assets/fonts/cairo/cairo-light.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-medium;
             src: url(assets/fonts/cairo/cairo-medium.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-regular;
             src: url(assets/fonts/cairo/cairo-regular.ttf);
         }
-        
+
         @font-face {
             font-family: cairo-semibold;
             src: url(assets/fonts/cairo/cairo-semibold.ttf);
@@ -101,9 +101,9 @@
             },
             "telephone": "+962799757113",
             "openingHours": "sun-sat 09:00-18:00",
-            "priceRange": "$$$", 
+            "priceRange": "$$$",
             "sameAs": [
-                "https://www.facebook.com/Northimmigration/",  
+                "https://www.facebook.com/Northimmigration/",
                 "https://www.youtube.com/channel/UCjCWO4H3zpxHn9dFxIdC1DQ",
                 "https://www.instagram.com/northimmigration/",
                 "https://twitter.com/northmigration"
@@ -124,11 +124,11 @@
             <li class=""><a href="#contact-us">تواصل معنا</a></li>
             <li class=""><a href="#about-us">لماذا نحن </a></li>
         </ul>
-       </div> 
+       </div>
         <div>
             <img src="assets/img/logo-new2.png" class="logo" alt="">
         </div>
-      
+
     </nav>
     <!-- Header -->
     <header>
@@ -284,7 +284,7 @@
                                 <img src="assets/images/icons/benefit/icon-6.ico" class="w-50x" alt="">
                                 <h3>الدول التي يسمح بدخولها</h3>
                                 <p>
-                                    السفر ألى 147 دولة بدون تأشيرة مسبقة حول العالم    
+                                    السفر ألى 147 دولة بدون تأشيرة مسبقة حول العالم
                                 </p>
                             </div>
                         </div>
@@ -332,100 +332,95 @@
 
 
                     <div class="animation-container">
-                        <!-- Step one -->
-                        <div class="form-step js-form-step" data-step="1">
+                        <form role="form">
+                            <!-- Step one -->
+                            <fieldset class="form-step js-form-step" data-step="1">
 
-                            <p class="form-instructions"><strong>
-                                    هل ترغب في الحصول على جنسية الكاريبي؟
-                                </strong><br>
-                                قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو الخبرة
-                                بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
-                            </p>
+                                <p class="form-instructions"><strong>
+                                        هل ترغب في الحصول على جنسية الكاريبي؟
+                                    </strong><br>
+                                    قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو
+                                    الخبرة
+                                    بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
+                                </p>
 
-                            <form action="" name="form-step-1">
                                 <h3><strong>هل تملك مبلغ الاستثمار100 الف دولار امريكي؟</strong></h3>
 
                                 <div class="buttons">
                                     <button type="button" class="btn-xl2 js-reset">لا</button>
                                     <button type="submit" class="btn-xl">نعم</button>
                                 </div>
-                            </form>
 
-                        </div>
+                            </fieldset>
 
-                        <!-- Step two -->
-                        <div class="form-step js-form-step waiting hidden" data-step="2">
-                            <p class="form-instructions"><strong>
-                                    هل ترغب في الحصول على جنسية الكاريبي؟
-                                </strong><br>
-                                قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو الخبرة
-                                بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
-                            </p>
-
-                            <form action="" name="form-step-2">
+                            <!-- Step two -->
+                            <fieldset class="form-step js-form-step waiting hidden" data-step="2">
+                                <p class="form-instructions"><strong>
+                                        هل ترغب في الحصول على جنسية الكاريبي؟
+                                    </strong><br>
+                                    قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو
+                                    الخبرة
+                                    بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
+                                </p>
                                 <h3>الجنسيه الحاليه</h3>
                                 <div class="fieldgroup">
-                                    <input type="text" name="" id="token" />
-                                    <label for="token">ادخل اجابتك</label>
+                                    <input type="text" name="answer" id="answer"/>
+                                    <label for="answer">ادخل اجابتك</label>
                                 </div>
 
                                 <div class="buttons">
                                     <button type="button" class="btn-xl2 js-reset">لا</button>
                                     <button type="submit" class="btn-xl">نعم</button>
                                 </div>
-                            </form>
 
-                        </div>
-
+                            </fieldset>
 
 
-                        <!-- Step three -->
-                        <div class="form-step js-form-step waiting hidden" data-step="3">
-                            <p class="form-instructions"><strong>
-                                    هل ترغب في الحصول على جنسية الكاريبي؟
-                                </strong><br>
-                                قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو الخبرة
-                                بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
-                            </p>
-                            <form action="" name="form-step-3">
+                            <!-- Step three -->
+                            <fieldset class="form-step js-form-step waiting hidden" data-step="3">
+                                <p class="form-instructions"><strong>
+                                        هل ترغب في الحصول على جنسية الكاريبي؟
+                                    </strong><br>
+                                    قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو
+                                    الخبرة
+                                    بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
+                                </p>
                                 <h4>الرجاء تعبئة بيانات الاتصال التاليه</h4>
-
+                                <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
                                 <div class="fieldgroup">
-                                    <input type="text" name="credit-card" id="credit-card" />
-                                    <label for="credit-card">البريد الالكتروني</label>
+                                    <input type="text" name="email" id="email"/>
+                                    <label for="email">البريد الالكتروني</label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="credit-card-expiry" id="credit-card-expiry" />
-                                    <label for="credit-card-expiry">الاسم بالكامل</label>
+                                    <input type="text" name="name" id="name"/>
+                                    <label for="name">الاسم بالكامل</label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="credit-card-expiry" id="credit-card-expiry" />
-                                    <label for="credit-card-expiry">رقم الهاتف </label>
+                                    <input type="text" name="phone_number" id="phone_number"/>
+                                    <label for="phone_number">رقم الهاتف </label>
                                 </div>
                                 <div class="fieldgroup">
-                                    <input type="text" name="credit-card-expiry" id="credit-card-expiry" />
-                                    <label for="credit-card-expiry"> المسمى الوظيفي</label>
+                                    <input type="text" name="alias" id="alias"/>
+                                    <label for="alias"> المسمى الوظيفي</label>
                                 </div>
                                 <div class="buttons">
                                     <button type="button" class="btn-xl2 js-reset">الغاء</button>
                                     <button type="submit" class="btn-xl">المتابعه</button>
                                 </div>
-                            </form>
-                        </div>
+                            </fieldset>
 
 
-
-                        <!-- Step four -->
-                        <div class="form-step js-form-step waiting hidden" data-step="4">
-                            <p class="form-instructions"><strong>
-                                    هل ترغب في الحصول على جنسية الكاريبي؟
-                                </strong><br>
-                                قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو الخبرة
-                                بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
-                            </p>
-                            <form action="" name="form-step-4">
+                            <!-- Step four -->
+                            <fieldset class="form-step js-form-step waiting hidden" data-step="4">
+                                <p class="form-instructions"><strong>
+                                        هل ترغب في الحصول على جنسية الكاريبي؟
+                                    </strong><br>
+                                    قم بملء النموذج أدناه لتحجز استشارة مجانية مع فريقنا المتخصص. سيقوم مستشارونا ذوو
+                                    الخبرة
+                                    بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
+                                </p>
                                 <div class="fieldgroup">
-                                    <br />
+                                    <br/>
                                     <label for="agreen"><strong>انا اوافق</strong>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci
                                         aspernatur, est porro maiores rem excepturi, amet laudantium quidem vero
@@ -434,16 +429,24 @@
                                     </label>
 
                                     <a href="https://www.northimmigration.com/privacy"></a>
-                                    <br />
-                                    <br />
-                                    <br />
+                                    <br/>
+                                    <br/>
+                                    <br/>
 
                                 </div>
                                 <div class="buttons text-center">
-                                    <button type="submit" class="btn-xl">Submit</button>
+                                    <button type="submit" class="btn-xl" onclick="submitContactForm()">Submit</button>
                                 </div>
-                            </form>
 
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="toast" id="myToast" data-bs-autohide="true">
+                        <div class="toast-header">
+                            <strong class="me-auto message-submit"></strong>
+                        </div>
+                        <div class="toast-body">
+                            <p id="error_message"></p>
                         </div>
                     </div>
                 </div>
@@ -543,7 +546,7 @@
 
                             </div>
                         </div>
-                    
+
                         <div class="country-visa">
                             <h4> دول البحر الكاريبي </h4>
                             <div>
@@ -612,7 +615,7 @@
 
                     <div class="col-md-2 offset-1 mb-4 pb-4">
                         <div class="contact-us">
-                            <h4>اتصل بنا 
+                            <h4>اتصل بنا
                             </h4>
                             <div class="p-1">
                                 <div class="mb-4">
@@ -625,7 +628,7 @@
                                     <a href="mailto:kuwait@northimmigration.com">
                                         kuwait@northimmigration.com
                                     </a>
-                                </div> 
+                                </div>
                             </div>
                             <div class="p-1">
                                 <div class="mb-4">
@@ -635,7 +638,7 @@
                                     <a href="tel:+971504405900"> 00971504405900</a>
                                     <br>
                                     <a href="mailto:dubai@northimmigration.com"> dubai@northimmigration.com</a>
-                                </div> 
+                                </div>
                             </div>
 
                         </div>
@@ -909,6 +912,36 @@
         }
 
         init();
+    </script>
+    <script>
+      function submitContactForm(){
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var phone_number = $('#phone_number').val();
+        var alias = $('#alias').val();
+        var answer = $('#answer').val();
+          $.ajax({
+            type:'POST',
+            url:'form_submit.php',
+            data:'contactFrmSubmit=1&name='+name+'&email='+email+'&phone_number='+phone_number+'&alias='+alias+'&answer='+answer,
+            success:function(msg){
+              if(msg == 'success'){
+                $('#name').val('');
+                $('#email').val('');
+                $('#phone_number').val('');
+                $('#alias').val('');
+                $('#answer').val('');
+                $('.message-submit').html('<h3>Success !!</h3>');
+                $('.toast').toast('show');
+                $('#error_message').html('شكرًا على تواصلك معنا ، وسنعاود الاتصال بك قريبًا');
+              }else{
+                $('.message-submit').html('<h3>Opps !!</h3>');
+                $('.toast').toast('show');
+                $('#error_message').html('حدث خطأ يرجى المحاولة مجددا');
+              }
+            }
+          });
+      }
     </script>
 </body>
 
