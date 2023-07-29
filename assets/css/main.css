@@ -46,7 +46,7 @@ a.active {
 
 /* Button Styles */
 .btn-xl {
-    padding: 10px 40px;
+    padding: 5px 40px;
     margin: 20px;
     border-color: transparent;
     border-radius: 3px;
@@ -56,6 +56,7 @@ a.active {
     color: #e32224;
     transition: border-radius 0.2s ease-in-out;
     background-color: #ffffff;
+
 }
 
 .btn-xl:hover,
@@ -69,8 +70,8 @@ a.active {
     transition: border-radius 0.5s ease-in-out;
     box-shadow: 1px 1px 10px grey;
 }
-.btn-xl2 {
-    padding: 10px 40px;
+.btn-xl2 { 
+	padding: 5px 40px;
     margin: 20px;
     border-color: transparent;
     border-radius: 3px;
@@ -80,6 +81,8 @@ a.active {
     color: #fff;
     transition: border-radius 0.2s ease-in-out;
     background-color: #e32224;
+	min-width: 110px;
+	
 }
 
 .btn-xl2:hover,
@@ -173,14 +176,14 @@ h2 {
 }
 
 nav {
-    height: 65px;
+	height: 65px;
     width: 100%;
     background: #00000047;
     position: fixed;
     z-index: 99999;
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -209,10 +212,10 @@ nav {
     text-decoration: none;
 }
 
-.navlinks a.active,
+/* .navlinks a.active,
 .navlinks a:hover {
     background: #e74c3c;
-}
+} */
 
 .checkbtn {
     color: white;
@@ -481,4 +484,16 @@ progress {
 
 .hidden {
     display: none;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.navlinks a.active, .navlinks a:hover {
+    border-bottom: 3px solid #e32224;
+    border-radius: 0px;
 }

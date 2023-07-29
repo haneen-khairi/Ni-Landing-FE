@@ -243,4 +243,35 @@ header .intro-text .intro-heading {
   width: 200px;
   margin: 10px auto;
 }
+.animation-container {
+  min-height: 500px;
+}
+.form-instructions { 
+  padding: 0px;
+}
+.form-step { 
+  padding: 10px;
+}
+.btn-groun-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1rem;
+}
+.btn-xl{
+  margin:0px;
+}
+.checkbtn {
+  color: #fff;
+  opacity: 1; 
+  line-height: 50px;
+  padding-right: 10px;
+  float: right;
+}
+.navlinks { 
+  height: fit-content;
+  background: #192e39fa;
+}
 }
