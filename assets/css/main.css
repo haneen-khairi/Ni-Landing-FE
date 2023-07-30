@@ -512,3 +512,21 @@ progress {
     bottom: 50%;
     right: 22%;
 }
+.d-flex-cont{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.d-flex-cont2 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.fit-me{
+    width: fit-content;
+}

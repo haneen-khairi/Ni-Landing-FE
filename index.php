@@ -420,17 +420,22 @@
                                     بإرشادك للحصول على جنسية وجواز سفر احدى دول الكاريبي
                                 </p>
                                 <div class="fieldgroup">
-                                    <br/>
-                                    <input type="checkbox" name="" required id="">
-                                    <label for="agreen"><strong>انا اوافق</strong>
+                                    <br/> 
+                                    <span>
+                                    <a href="https://www.northimmigration.com/privacy" class="color-red">read our privacy</a> 
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci
                                         aspernatur, est porro maiores rem excepturi, amet laudantium quidem vero
                                         voluptatibus neque quibusdam quam, consequatur molestiae. Quo corporis unde
                                         reprehenderit?
-                                    </label>
-
-                                    <a href="https://www.northimmigration.com/privacy"></a>
+                                     </span>
+                                    
                                     <br/>
+                                    <br/>
+                                    <div class="d-flex-cont2">
+                                        <input type="checkbox" name="privacy" required id="privacy" class="fit-me" required id="">
+                                        <span for="agreen" class="color-red">انا أوافق</span>
+                                    </div>
+                                   
                                     <br/>
                                     <br/>
 
@@ -443,7 +448,7 @@
                         </form>
                     </div>
                     <div class="toast" id="myToast" data-bs-autohide="true">
-                        <div class="toast-header">
+                        <div class="toast-header d-flex-cont">
                             <strong class="me-auto message-submit"></strong>
                             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
