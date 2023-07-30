@@ -388,7 +388,7 @@
                                 <h4>الرجاء تعبئة بيانات الاتصال التاليه</h4>
 
                                 <div class="fieldgroup">
-                                    <input type="text" name="email" required id="email"/>
+                                    <input type="email"  pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" name="email" required id="email"/>
                                     <label for="email">البريد الالكتروني</label>
                                 </div>
                                 <div class="fieldgroup">
