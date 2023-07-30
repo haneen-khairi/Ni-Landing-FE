@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Set From, To, Subject, and Body
             $mail->setFrom($email, 'Mailtrap Website');
-            $mail->addAddress('support@northimmigration.com', 'Me');
+            $mail->addAddress('haneen.khairi96@gmail.com', 'Me');
             $mail->addReplyTo($email, $name);
             $mail->Subject = 'Saint lucia contact request landing page';
             $bodyParagraphs = '<html>

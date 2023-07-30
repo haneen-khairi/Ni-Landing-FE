@@ -70,8 +70,9 @@ a.active {
     transition: border-radius 0.5s ease-in-out;
     box-shadow: 1px 1px 10px grey;
 }
-.btn-xl2 { 
-	padding: 5px 40px;
+
+.btn-xl2 {
+    padding: 5px 40px;
     margin: 20px;
     border-color: transparent;
     border-radius: 3px;
@@ -81,8 +82,8 @@ a.active {
     color: #fff;
     transition: border-radius 0.2s ease-in-out;
     background-color: #e32224;
-	min-width: 110px;
-	
+    min-width: 110px;
+
 }
 
 .btn-xl2:hover,
@@ -96,6 +97,7 @@ a.active {
     transition: border-radius 0.5s ease-in-out;
     box-shadow: 1px 1px 10px grey;
 }
+
 /* Header Styles */
 header {
     position: relative;
@@ -176,7 +178,7 @@ h2 {
 }
 
 nav {
-	height: 65px;
+    height: 65px;
     width: 100%;
     background: #00000047;
     position: fixed;
@@ -239,7 +241,7 @@ nav {
 
 .form-instructions {
     text-align: center;
-	padding: 0px 80px;
+    padding: 40px 10px;
 }
 
 form {
@@ -290,8 +292,8 @@ input {
         border-color: #444;
     }
 
-    &:focus + label,
-    &.hasInput + label {
+    &:focus+label,
+    &.hasInput+label {
         top: -.8rem;
         font-size: .7rem;
     }
@@ -398,12 +400,15 @@ progress {
     &.one {
         left: 0;
     }
+
     &.two {
         left: 33%;
     }
+
     &.three {
         left: 66%;
     }
+
     &.four {
         left: 100%;
     }
@@ -411,8 +416,8 @@ progress {
     &.active {
         animation: bounce .5s forwards;
         animation-delay: .5s;
-		border-color: #e32224;
-		background: #e32224;
+        border-color: #e32224;
+        background: #e32224;
     }
 }
 
@@ -428,10 +433,11 @@ progress {
 }
 
 .form-step {
+    padding: 0px 10px;
     position: absolute;
     transition: 1s ease-in-out;
     transition-timing-function: ease-in-out;
-    will-change: transform, opacity; 
+    will-change: transform, opacity;
     top: 50%;
     /*transform: translate(0px , -50%);*/
 }
@@ -466,6 +472,7 @@ progress {
     50% {
         transform: scale(1.5);
     }
+
     100% {
         transform: scale(1);
     }
@@ -485,6 +492,7 @@ progress {
 .hidden {
     display: none;
 }
+
 .buttons {
     display: flex;
     align-items: center;
@@ -493,12 +501,13 @@ progress {
     flex-wrap: wrap;
     gap: 1rem;
 }
+
 .navlinks a.active, .navlinks a:hover {
     border-bottom: 3px solid #e32224;
     border-radius: 0px;
 }
 
-.toast{
+.toast {
     position: relative;
     bottom: 50%;
     right: 22%;
