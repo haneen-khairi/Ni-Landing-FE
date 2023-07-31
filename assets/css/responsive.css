@@ -179,9 +179,12 @@ section {
 }
 .country-visa h4 {
   font-size: 20px;
+  text-align: center;
 }
 .country-visa h5 {
   font-size: 14px;
+  text-align: center;
+  
 }
 .accordion button .accordion-title {
   padding: 10px;

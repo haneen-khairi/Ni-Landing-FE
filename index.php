@@ -30,53 +30,13 @@
     <meta property="og:image:alt" content="Saint Lucia">
     <meta property="og:url" content="https://saintlucia.northimmigration.com/">
     <meta property="og:type" content="website">
-
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
     <title>Saint Lucia | North Immigration</title>
     <style>
-        @font-face {
-            font-family: cairo;
-            src: url(assets/fonts/cairo/cairo.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-Black;
-            src: url(assets/fonts/cairo/cairo-Black.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-Bold;
-            src: url(assets/fonts/cairo/cairo-Bold.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-extrabold;
-            src: url(assets/fonts/cairo/cairo-extrabold.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-extralight;
-            src: url(assets/fonts/cairo/cairo-extralight.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-light;
-            src: url(assets/fonts/cairo/cairo-light.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-medium;
-            src: url(assets/fonts/cairo/cairo-medium.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-regular;
-            src: url(assets/fonts/cairo/cairo-regular.ttf);
-        }
-
-        @font-face {
-            font-family: cairo-semibold;
-            src: url(assets/fonts/cairo/cairo-semibold.ttf);
+        *{
+             font-family: 'Cairo', sans-serif!important;
         }
     </style>
 </head>
@@ -150,8 +110,8 @@
                         </div>
                         <div class="btn-groun-display">
                             <a href="#contact-us" class="page-scroll btn btn-xl">تواصل معنا</a>
-                            <a href="assets/images/E.Book.pdf" download="E.Book.pdf" target="_blank"
-                                class="page-scroll btn btn-xl"><i class="fa-solid fa-download"></i> حمل الكتاب</a>
+                            <!--<a href="assets/images/E.Book.pdf" download="E.Book.pdf" target="_blank"-->
+                            <!--    class="page-scroll btn btn-xl"><i class="fa-solid fa-download"></i> حمل الكتاب</a>-->
                         </div>
 
                     </div>
