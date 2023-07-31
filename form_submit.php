@@ -1,9 +1,9 @@
 <?php
 
-require "vendor/autoload.php";
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+//require "vendor/autoload.php";
+//
+//use PHPMailer\PHPMailer\PHPMailer;
+//use PHPMailer\PHPMailer\SMTP;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
@@ -16,34 +16,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!empty($name) || !empty($email) || !empty($phone_number) || !empty($alias) || !empty($answer)) {
 
-        $conn = mysqli_connect("localhost:8889", "root", "root",
-            "north_immegration") or die("Connection Error: " . mysqli_error($conn));
-        $sql = "INSERT INTO tbl_contact_us(name, email, phone_number, alias, answer, ip_address, date) VALUES ('" . $name . "', '" . $email . "', '" . $phone_number . "', '" . $alias . "', '" . $answer . "', '" . $ip_address . "', '" . date('Y-m-d H:i:s') . "')";
-        $result = mysqli_query($conn, $sql);
-        if (!$result) {
-            die(var_dump($conn->connect_error));
-        }
-
-        // Initialize PHPMailer
-        $mail = new PHPMailer(true);
+//        $conn = mysqli_connect("localhost:8889", "root", "root",
+//            "north_immegration") or die("Connection Error: " . mysqli_error($conn));
+//        $sql = "INSERT INTO tbl_contact_us(name, email, phone_number, alias, answer, ip_address, date) VALUES ('" . $name . "', '" . $email . "', '" . $phone_number . "', '" . $alias . "', '" . $answer . "', '" . $ip_address . "', '" . date('Y-m-d H:i:s') . "')";
+//        $result = mysqli_query($conn, $sql);
+//        if (!$result) {
+//            die(var_dump($conn->connect_error));
+//        }
 
         try {
-            // SMTP Configuration
-
-            $mail->isSMTP();
-            $mail->Host = 'smtp.office365.com';
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-//            $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-            $mail->SMTPAuth = true;
-            $mail->Port = 587;
-            $mail->Username = 'suha@northimmigration.com';
-            $mail->Password = 'Jordan@2022';
-
-            // Set From, To, Subject, and Body
-            $mail->setFrom($email, 'Mailtrap Website');
-            $mail->addAddress('haneen.khairi96@gmail.com', 'Me');
-            $mail->addReplyTo($email, $name);
-            $mail->Subject = 'Saint lucia contact request landing page';
+            $subject = 'Saint lucia contact request landing page';
             $bodyParagraphs = '<html>
                     <head>
                         <title>Saint lucia contact request landing page</title>
@@ -73,11 +55,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </table>
                     </body>
                 </html>';
-            $mail->Body = $bodyParagraphs;
-            $mail->IsHTML(true);
 
-            // Send the email
-            $mail->send();
+
+            $headers = "From: " . $email . "\r\n";
+            $headers .= "Reply-To: ". $email . "\r\n";
+            $headers .= "X-Mailer: PHP/". phpversion();
+            $headers .= "MIME-Version: 1.0\r\n";
+            $headers .= "Content-Type: text/html; charset=UTF-8\n";
+
+            $email_to = "shbailat57@gmail.com";
+
+            mail($email_to, $subject, $bodyParagraphs, $headers);
 
             $status = 'success';
         } catch (Exception $e) {
