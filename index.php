@@ -441,7 +441,7 @@
 
                                 </div>
                                 <div class="buttons text-center">
-                                    <button type="submit" class="btn-xl" onclick="submitContactForm()">Submit</button>
+                                    <button type="submit" class="btn-xl" onclick="submitContactForm()">ارسال</button>
                                 </div>
 
                             </fieldset>
@@ -938,11 +938,11 @@
                 $('#phone_number').val('');
                 $('#alias').val('');
                 $('#answer').val('');
-                $('.message-submit').html('<h3>Success !!</h3>');
+                $('.message-submit').html('<h3>تم بنجاح !!</h3>');
                 $('.toast').toast('show');
                 $('#error_message').html('شكرًا على تواصلك معنا ، وسنعاود الاتصال بك قريبًا');
               }else{
-                $('.message-submit').html('<h3>Opps !!</h3>');
+                $('.message-submit').html('<h3>نأسف  !!</h3>');
                 $('.toast').toast('show');
                 $('#error_message').html('حدث خطأ يرجى المحاولة مجددا');
               }
