@@ -30,9 +30,9 @@
     <meta property="og:image:alt" content="Saint Lucia">
     <meta property="og:url" content="https://saintlucia.northimmigration.com/">
     <meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Saint Lucia | North Immigration</title>
     <style>
         *{
